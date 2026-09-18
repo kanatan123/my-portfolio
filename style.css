@@ -1,24 +1,19 @@
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", "Hiragino Kaku Gothic ProN", sans-serif;
   line-height: 1.8;
-  background-color: #f5f3ed;
-  color: #3f463d;
+  background-color: #F5EFE3;
+  color: #4D5B5E;
 }
 
 header {
-  text-align: center;
-  padding: 100px 20px;
-  background-color: #dfe6d8;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 42px;
-}
-
-header p {
-  font-size: 18px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-image:
+    linear-gradient(rgba(255, 250, 240, 0.15), rgba(255, 250, 240, 0.15)),
+    url("images/header.png");
+  background-size: cover;
+  background-position: center;
 }
 
 main {
@@ -32,24 +27,38 @@ section {
 }
 
 h2 {
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 28px;
-  border-bottom: 2px solid #aab7a0;
+  border-bottom: 2px solid #9DBEC3;
   padding-bottom: 10px;
+  letter-spacing: 1px;
 }
 
 .work-card {
-  background-color: white;
+  background-color: #FFFCF6;
   padding: 25px;
   margin: 20px 0;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 12px rgba(77, 91, 94, 0.08);
+}
+
+.work-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.work-card video {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
 }
 
 button {
   padding: 12px 25px;
   border: none;
   border-radius: 20px;
-  background-color: #8b9b82;
+  background-color: #789FA5;
   color: white;
   font-size: 16px;
   cursor: pointer;
@@ -62,16 +71,5 @@ button:hover {
 footer {
   text-align: center;
   padding: 30px;
-  background-color: #dfe6d8;
-}
-.work-card img {
-  width: 100%;
-  border-radius: 10px;
-  margin: 15px 0;
-}
-
-.work-card video {
-  width: 100%;
-  border-radius: 10px;
-  margin-top: 15px;
+  background-color: #C9DDE0;
 }
