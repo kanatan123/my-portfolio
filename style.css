@@ -60,6 +60,14 @@ header {
   background-position: center 55%;
 }
 
+/* スマホ用 */
+@media (max-width: 600px) {
+  header {
+    height: 500px;
+    background-position: center 70%;
+  }
+}
+
 main {
   max-width: 800px;
   margin: 0 auto;
