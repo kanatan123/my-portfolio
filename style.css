@@ -1,3 +1,47 @@
+.tab-nav {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  padding: 18px 20px;
+  background-color: #F5EFE3;
+}
+
+/* タブ */
+.tab-nav button {
+  padding: 6px 4px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  background: none;
+  color: #789FA5;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+  /* ふわっと変化 */
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+/* ホバーしたとき */
+.tab-nav button:hover {
+  color: #4D7F88;
+}
+
+/* 選択中 */
+.tab-nav button.active {
+  color: #4D7F88;
+  border-bottom: 2px solid #9DBEC3;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
 body {
   margin: 0;
   font-family: "Helvetica Neue", "Hiragino Kaku Gothic ProN", sans-serif;
@@ -8,12 +52,12 @@ body {
 
 header {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 600px;
   background-image:
     linear-gradient(rgba(255, 250, 240, 0.15), rgba(255, 250, 240, 0.15)),
     url("images/header.png");
   background-size: cover;
-  background-position: center;
+  background-position: center 55%;
 }
 
 main {
