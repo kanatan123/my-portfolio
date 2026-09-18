@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.8;
+  background-color: #f5f3ed;
+  color: #3f463d;
+}
+
+header {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #dfe6d8;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 42px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+section {
+  margin-bottom: 70px;
+}
+
+h2 {
+  font-size: 28px;
+  border-bottom: 2px solid #aab7a0;
+  padding-bottom: 10px;
+}
+
+.work-card {
+  background-color: white;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 20px;
+  background-color: #8b9b82;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #dfe6d8;
+}
